@@ -1,4 +1,4 @@
-import speech_recognition as sr
+hoimport speech_recognition as sr
 import pyttsx3
 import datetime
 import wikipedia
@@ -16,7 +16,7 @@ import google.generativeai as genai
 
 
 model = genai.GenerativeModel('gemini-pro')
-GOOGLE_API_KEY = "AIzaSyAEfQDRswqlpJhseWuzmvqp3bHm_HWyu50"
+GOOGLE_API_KEY = "OpenAI API Key"
 
 genai.configure(api_key=GOOGLE_API_KEY)
 
@@ -45,7 +45,7 @@ def voice_change(v):
 #speak function
 def speak(audio):
     engine.say(audio)
-    engine.runAndWait()
+    engine.ru
 
 
 #time function
